@@ -42,3 +42,11 @@ ffmpeg -loglevel warning -re -hide_banner -channels 2 -r 44100 -f s16le -i /dev/
     ./fakesilence |\
     ffmpeg -hide_banner -channels 2  -r 44100 -f s16le -i - -c:a flac -f ogg -y /dev/null
 ```
+
+The new output:
+
+```
+size=     204kB time=00:00:10.61 bitrate= 157.5kbits/s speed=1.12x
+```
+
+More data is now being transmitted thanks to the added audible noise, circumventing network timeout issues.
