@@ -49,4 +49,4 @@ The new output:
 size=     204kB time=00:00:10.61 bitrate= 157.5kbits/s speed=1.12x
 ```
 
-More data is now being transmitted thanks to the added audible noise, circumventing network timeout issues.
+More data is now being transmitted thanks to the added inaudible noise, circumventing network timeout issues.
